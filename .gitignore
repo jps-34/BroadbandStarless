@@ -1,0 +1,18 @@
+# Signing keys: NEVER commit them
+*.xssk
+# local work
+*.xisf
+*.fits
+*.fit
+__pycache__/
+.DS_Store
+
+# Identifiants et clés : ne jamais committer
+*.pem
+*.key
+id_rsa*
+id_ed25519*
+.env
+.env.*
+.git-credentials
+*.token
