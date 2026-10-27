@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.0.1 (2026-10-27)
+* Licence changed from MIT to the GNU General Public License, version 3 or later
+  (GPL-3.0-or-later). Versions up to 1.0.0 remain available under the MIT License. No change to
+  the script's behaviour.
+* README: credit request for reuse of the method or the code.
+
 ## 1.0.0 (2026-10-19)
 * First release.
 * R, G and B view selection, preselected from the view names; two editable result names
