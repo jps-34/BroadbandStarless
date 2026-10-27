@@ -37,7 +37,7 @@ PACKAGES = [
                 "SpectrophotometricColorCalibration, BlurXTerminator, StarXTerminator and optional "
                 "NoiseXTerminator, then an optional auto STF. Main settings of each tool in advanced mode, "
                 "source images left untouched. English or French interface. Requires the GraXpert process "
-                "and the RC Astro tools. Installs under Script > Utilities > BroadbandStarless.",
+                "and the RC Astro tools. Installs under Script > JPS > BroadbandStarless.",
     },
 ]
 NOTICE = "Copyright (c) 2026 Jacques Pouyaud. GNU GPL v3 or later. Source: https://github.com/{user}/" + NAME

@@ -64,7 +64,7 @@ Only the enabled tools need to be installed.
 1. *Resources > Updates > Manage Repositories*, add
    `https://jps-34.github.io/BroadbandStarless/`
 2. *Resources > Updates > Check for Updates*, then restart PixInsight.
-3. The script appears under *Script > Utilities > BroadbandStarless*.
+3. The script appears under *Script > JPS > BroadbandStarless* (*Script > Utilities* up to 1.0.1).
 
 Until the repository is code-signed, PixInsight only accepts it with the *Allow unsigned update
 repositories* security preference enabled.
@@ -72,7 +72,7 @@ repositories* security preference enabled.
 ### Manual
 
 Download `scripts/BroadbandStarless.js`, then either run it with *Script > Execute Script File*, or
-add its folder with *Script > Feature Scripts > Add* so it shows up in *Script > Utilities*.
+add its folder with *Script > Feature Scripts > Add* so it shows up in *Script > JPS*.
 
 ## Quick start
 

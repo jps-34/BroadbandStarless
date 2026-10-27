@@ -1,6 +1,6 @@
 #engine v8
 
-#feature-id    BroadbandStarless : Utilities > BroadbandStarless
+#feature-id    BroadbandStarless : JPS > BroadbandStarless
 #feature-info  Builds a linear starless RGB image and a linear star image from three \
    R, G and B masters: ChannelCombination, GraXpert background extraction, automatic \
    background preview, BackgroundNeutralization, BlurXTerminator (correct only), \
@@ -10,7 +10,7 @@
    images are left untouched. Interface in English or French.
 
 /*
- * BroadbandStarless.js  v1.0.1
+ * BroadbandStarless.js  v1.0.2
  * Copyright (c) 2026 Jacques Pouyaud.
  * SPDX-License-Identifier: GPL-3.0-or-later
  * Free software under the GNU General Public License, version 3 or (at your
@@ -19,6 +19,7 @@
  * under the direction of Jacques Pouyaud.
  * https://github.com/jps-34/BroadbandStarless
  *
+ * v1.0.2: menu entry moved to Script > JPS (was Script > Utilities).
  * v1.0.0: first release.
  * ----------------------------------------------------------------------------
  * Pipeline, on a new RGB image built from the selected R, G and B views:
@@ -59,7 +60,7 @@
 #include <../src/scripts/ImageSolver/ImageSolver.js>
 
 var SCRIPT_TITLE = "BroadbandStarless";
-var SCRIPT_VERSION = "1.0.1";
+var SCRIPT_VERSION = "1.0.2";
 var LANG_KEY = "BroadbandStarless/language";
 var SETTINGS_KEY = "BroadbandStarless/settings";
 var LANG = "en";

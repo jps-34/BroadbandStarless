@@ -5,10 +5,10 @@
       <p>Add https://jps-34.github.io/BroadbandStarless/ under Resources &gt; Updates &gt; Manage Repositories.</p>
    </description>
    <platform os="all" arch="noarch" version="1.9.5:1.9.99">
-      <package fileName="BroadbandStarless-1.0.1-PI195.zip" sha1="839a787b993a061d8ca8f3b8c6c5dd724995bc02" type="script" releaseDate="20261027" serverURL="https://jps-34.github.io/BroadbandStarless/">
-         <title>BroadbandStarless 1.0.1 (PixInsight 1.9.5 and later)</title>
+      <package fileName="BroadbandStarless-1.0.2-PI195.zip" sha1="4d742550cd361e92b9ba9eecda74ad3b419a9d0e" type="script" releaseDate="20261027" serverURL="https://jps-34.github.io/BroadbandStarless/">
+         <title>BroadbandStarless 1.0.2 (PixInsight 1.9.5 and later)</title>
          <description>
-            <p>Builds a linear starless RGB image and a linear star image from three R, G and B masters: ChannelCombination, GraXpert AI background extraction, automatic sky background preview, BackgroundNeutralization, BlurXTerminator (correct only), ImageSolver, SpectrophotometricColorCalibration, BlurXTerminator, StarXTerminator and optional NoiseXTerminator, then an optional auto STF. Main settings of each tool in advanced mode, source images left untouched. English or French interface. Requires the GraXpert process and the RC Astro tools. Installs under Script &gt; Utilities &gt; BroadbandStarless.</p>
+            <p>Builds a linear starless RGB image and a linear star image from three R, G and B masters: ChannelCombination, GraXpert AI background extraction, automatic sky background preview, BackgroundNeutralization, BlurXTerminator (correct only), ImageSolver, SpectrophotometricColorCalibration, BlurXTerminator, StarXTerminator and optional NoiseXTerminator, then an optional auto STF. Main settings of each tool in advanced mode, source images left untouched. English or French interface. Requires the GraXpert process and the RC Astro tools. Installs under Script &gt; JPS &gt; BroadbandStarless.</p>
             <p>Copyright (c) 2026 Jacques Pouyaud. GNU GPL v3 or later. Source: https://github.com/jps-34/BroadbandStarless</p>
          </description>
       </package>
