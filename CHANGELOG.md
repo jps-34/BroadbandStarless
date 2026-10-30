@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+* Return no longer runs a button of the dialog: PixInsight 1.9.6 activates the first button of a dialog
+  when Return is pressed in an edit box, which could start a run or reset the settings.
+
 ## 1.0.3 (2026-10-30)
 * Deprecated `coreLibDirPath` and `coreDirPath` replaced by `CoreApplication.libDirPath` and
   `CoreApplication.dirPath`: no more deprecation warning on the console. No change to the behaviour.
