@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+* Deprecated `coreLibDirPath` and `coreDirPath` replaced by `CoreApplication.libDirPath` and
+  `CoreApplication.dirPath`: no more deprecation warning on the console. No change to the behaviour.
+
 ## 1.0.2 (2026-10-27)
 * Menu: the script moves from *Script > Utilities* to *Script > JPS*, the folder that groups
   the PixInsight scripts of Jacques Pouyaud. No change to the behaviour.

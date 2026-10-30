@@ -389,8 +389,8 @@ function filterDatabasePaths()
       if ( dir && dir.length > 0 )
          paths.push( dir + "/filters.xspd" );
    }
-   try { if ( typeof coreLibDirPath !== "undefined" ) add( coreLibDirPath ); } catch ( e ) {}
-   try { if ( typeof coreDirPath !== "undefined" ) add( coreDirPath + "/library" ); } catch ( e ) {}
+   try { add( CoreApplication.libDirPath ); } catch ( e ) {}
+   try { add( CoreApplication.dirPath + "/library" ); } catch ( e ) {}
    try { add( File.homeDirectory + "/.PixInsight/library" ); } catch ( e ) {}
    try { add( File.homeDirectory + "/Library/PixInsight/library" ); } catch ( e ) {}
    add( "/opt/PixInsight/library" );
