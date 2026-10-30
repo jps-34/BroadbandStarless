@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.3 (2026-10-30)
 * Deprecated `coreLibDirPath` and `coreDirPath` replaced by `CoreApplication.libDirPath` and
   `CoreApplication.dirPath`: no more deprecation warning on the console. No change to the behaviour.
 

@@ -10,7 +10,7 @@
    images are left untouched. Interface in English or French.
 
 /*
- * BroadbandStarless.js  v1.0.2
+ * BroadbandStarless.js  v1.0.3
  * Copyright (c) 2026 Jacques Pouyaud.
  * SPDX-License-Identifier: GPL-3.0-or-later
  * Free software under the GNU General Public License, version 3 or (at your
@@ -19,6 +19,7 @@
  * under the direction of Jacques Pouyaud.
  * https://github.com/jps-34/BroadbandStarless
  *
+ * v1.0.3: deprecated names replaced. No change to the behaviour.
  * v1.0.2: menu entry moved to Script > JPS (was Script > Utilities).
  * v1.0.0: first release.
  * ----------------------------------------------------------------------------
@@ -60,7 +61,7 @@
 #include <../src/scripts/ImageSolver/ImageSolver.js>
 
 var SCRIPT_TITLE = "BroadbandStarless";
-var SCRIPT_VERSION = "1.0.2";
+var SCRIPT_VERSION = "1.0.3";
 var LANG_KEY = "BroadbandStarless/language";
 var SETTINGS_KEY = "BroadbandStarless/settings";
 var LANG = "en";
