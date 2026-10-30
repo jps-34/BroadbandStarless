@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 1.0.4 (2026-10-30)
 * Return no longer runs a button of the dialog: PixInsight 1.9.6 activates the first button of a dialog
   when Return is pressed in an edit box, which could start a run or reset the settings.
 
