@@ -12,6 +12,11 @@ Conçu pour la chaîne de traitement de l'auteur (masters issus de CommonCrop, p
 étirement et réinsertion des étoiles). Script jumeau de NarrowbandStarless, qui fait le même travail
 sur des masters SII, Ha et OIII. Partagé tel quel.
 
+**Non signé.** Ce script et son dépôt de mises à jour ne sont pas signés, et ils ne relèvent pas de
+l'identité de développeur certifié PixInsight (Certified PixInsight Developer) de l'auteur. Pour
+l'exécuter, l'option de sécurité *Allow execution of unsigned scripts* de PixInsight doit être
+activée (elle l'est par défaut).
+
 ## Ce qu'il fait
 
 Sur une nouvelle image RGB construite à partir des vues choisies :
@@ -72,8 +77,8 @@ Seuls les outils activés doivent être installés.
 2. *Resources > Updates > Check for Updates*, puis redémarrer PixInsight.
 3. Le script apparaît dans *Script > JPS > BroadbandStarless* (*Script > Utilities* jusqu'à la 1.0.1).
 
-Tant que le dépôt n'est pas signé, PixInsight ne l'accepte qu'avec l'option de sécurité *Allow
-unsigned update repositories* activée.
+Le dépôt n'est pas signé : PixInsight ne l'accepte qu'avec l'option de sécurité *Allow unsigned
+update repositories* activée.
 
 ### Manuelle
 
