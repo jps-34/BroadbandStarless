@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.0.5 (2026-11-14)
+* Dialog: the scrolled area holding the settings (Images, Pipeline, Sky background, GraXpert and the
+  advanced groups) was painted with the theme's dark base colour, which made the group titles and labels
+  hard to read. It now takes the dialog's own background colour. No change to the processing.
+
 ## 1.0.4 (2026-10-30)
 * Return no longer runs a button of the dialog: PixInsight 1.9.6 activates the first button of a dialog
   when Return is pressed in an edit box, which could start a run or reset the settings.

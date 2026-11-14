@@ -10,7 +10,7 @@
    images are left untouched. Interface in English or French.
 
 /*
- * BroadbandStarless.js  v1.0.4
+ * BroadbandStarless.js  v1.0.5
  * Copyright (c) 2026 Jacques Pouyaud.
  * SPDX-License-Identifier: GPL-3.0-or-later
  * Free software under the GNU General Public License, version 3 or (at your
@@ -19,6 +19,7 @@
  * under the direction of Jacques Pouyaud.
  * https://github.com/jps-34/BroadbandStarless
  *
+ * v1.0.5: the scrolled settings area takes the dialog background (it was dark).
  * v1.0.4: Return in an edit box runs no button.
  * v1.0.3: deprecated names replaced. No change to the behaviour.
  * v1.0.2: menu entry moved to Script > JPS (was Script > Utilities).
@@ -62,7 +63,7 @@
 #include <../src/scripts/ImageSolver/ImageSolver.js>
 
 var SCRIPT_TITLE = "BroadbandStarless";
-var SCRIPT_VERSION = "1.0.4";
+var SCRIPT_VERSION = "1.0.5";
 var LANG_KEY = "BroadbandStarless/language";
 var SETTINGS_KEY = "BroadbandStarless/settings";
 var LANG = "en";
@@ -1372,6 +1373,11 @@ constructor()
    this.scrollBox.verticalScrollBarVisible = true;
    this.scrollBox.setScaledMinHeight( 520 );
    this.content = new Control( this.scrollBox.viewport );
+   // The viewport of a ScrollBox is painted with the theme's dark base colour,
+   // which made the group titles and labels hard to read: give the viewport
+   // and the scrolled content the dialog's own background colour.
+   this.scrollBox.viewport.backgroundColor = this.backgroundColor;
+   this.content.backgroundColor = this.backgroundColor;
    this.content.sizer = new VerticalSizer;
    this.content.sizer.margin = 2;
    this.content.sizer.spacing = 8;
